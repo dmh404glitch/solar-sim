@@ -3,8 +3,7 @@
 An interactive web app that shows how solar panels, a home battery and everyday electricity use work together, and what that means for your energy bill and carbon footprint.
 
 **🔗 Live demo:** **🔗 Live demo:** https://solar-sim-habib.streamlit.app
-<!-- Add a screenshot: save it as docs/screenshot.png, then remove this comment and uncomment the next line -->
-<!-- ![App screenshot](docs/screenshot.png) -->
+![App screenshot](docs/screenshot.png)
 
 ## What it does
 

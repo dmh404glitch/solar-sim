@@ -133,12 +133,12 @@ html, body, [class*="css"], .stApp { font-family: 'Inter', system-ui, sans-serif
 def style_fig(fig, title):
     """Transparent, glass-friendly Plotly styling."""
     fig.update_layout(
-        title=dict(text=title, font=dict(size=16, color="#eef1ff")),
+        title=dict(text=title, x=0.01, y=0.97, yref="container", font=dict(size=16, color="#eef1ff")),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Inter, sans-serif", color="rgba(238,241,255,0.8)"),
-        legend=dict(orientation="h", y=1.12, x=0, bgcolor="rgba(0,0,0,0)"),
-        margin=dict(l=10, r=10, t=60, b=10),
+        legend=dict(orientation="h", y=1.02, yanchor="bottom", x=0, bgcolor="rgba(0,0,0,0)"),
+        margin=dict(l=10, r=10, t=90, b=10),
         hovermode="x unified",
     )
     fig.update_xaxes(showgrid=False, linecolor="rgba(255,255,255,0.15)")
