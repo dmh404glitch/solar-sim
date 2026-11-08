@@ -84,4 +84,4 @@ This is a learning project and a deliberately simplified model:
 
 ## About
 
-Built by **[your name]** as a hands-on way to combine power engineering knowledge with programming. <!-- Edit this line: add your background, your GitHub or LinkedIn link, and what you're learning next. -->
+Built by **Drif Mohamed Habib** as a hands-on way to combine power engineering knowledge with programming. <!-- Edit this line: add your background, your GitHub or LinkedIn link, and what you're learning next. -->
